@@ -2,8 +2,6 @@
 
 # YidiOS - Interactive platform for learning.
 
-![YidiOS - Interactive platform for learning.](/.github/images/img_main.png "YidiOS - Interactive platform for learning.")
-
 <!-- Table of Contents -->
 <details>
 
