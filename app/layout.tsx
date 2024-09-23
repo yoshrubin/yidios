@@ -43,10 +43,10 @@ export default function RootLayout({
           <HeartsModal />
           <PracticeModal />
           {children}
+          <Analytics />
+          <SpeedInsights />
         </body>
       </html>
-      <Analytics />
-      <SpeedInsights />
     </ClerkProvider>
   );
 }
