@@ -1,4 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
 import { Nunito } from "next/font/google";
 
@@ -43,6 +44,7 @@ export default function RootLayout({
           {children}
         </body>
       </html>
+      <SpeedInsights />
     </ClerkProvider>
   );
 }
